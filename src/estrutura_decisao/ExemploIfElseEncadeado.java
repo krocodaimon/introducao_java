@@ -2,7 +2,7 @@ package estrutura_decisao;
 
 import java.util.Scanner;
 
-public class Exemploif {
+public class ExemploIfElseEncadeado {
 
 	public static void main(String[] args) {
 		// Variaveis
@@ -18,9 +18,11 @@ public class Exemploif {
 		if (media >= 6) {
 			// Saída
 			System.out.println("Parabéns, você foi aprovado!");
+		} else if (media == 5) {
+			System.out.println("Você está de recuperação.");
+		} else {
+			System.out.println("Você está reprovado.");
 		}
-
-		leia.close();
 
 	}
 

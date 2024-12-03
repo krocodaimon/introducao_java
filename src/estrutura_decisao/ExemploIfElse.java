@@ -2,7 +2,7 @@ package estrutura_decisao;
 
 import java.util.Scanner;
 
-public class Exemploif {
+public class ExemploIfElse {
 
 	public static void main(String[] args) {
 		// Variaveis
@@ -18,9 +18,9 @@ public class Exemploif {
 		if (media >= 6) {
 			// Saída
 			System.out.println("Parabéns, você foi aprovado!");
-		}
-
-		leia.close();
+		} else {
+			System.out.println("Você foi reprovado.");
+		};
 
 	}
 
